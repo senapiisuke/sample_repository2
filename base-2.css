@@ -38,7 +38,26 @@ body {
 }
 
 /* 上の部分は気にせずここから書く */
-img{
-  width: 800px;
-  margin: auto;
+.box{
+  position: relative;
+  left: 300px;
+  height: 600px;
+  width: 600px;
+  border: solid 1px #000000;
+}
+
+.item1{
+  position: absolute;
+  left: 300px;
+  background-color: red;
+  height: 100px;
+  width: 200px;
+}
+
+.item2{
+  position: absolute;
+  top: 200px;
+  background-color: blue;
+  height: 100px;
+  width: 200px;
 }
